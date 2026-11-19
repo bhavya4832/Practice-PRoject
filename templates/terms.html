@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="legal-section">
+    <article class="legal-container">
+
+        <header class="legal-header">
+            <h1 class="legal-title">Terms and Conditions</h1>
+            <p class="legal-updated">Last updated: 19 November 2026</p>
+        </header>
+
+        <div class="legal-body">
+            <h2>1. Acceptance of Terms</h2>
+            <p>
+                These terms explain the rules for using Spendly, a personal expense
+                tracker. By creating an account or using Spendly, you agree to them.
+                If you don't agree, please don't use the service.
+            </p>
+
+            <h2>2. Use of Service</h2>
+            <p>
+                Spendly is for keeping track of your own spending. When you use it:
+            </p>
+            <ul>
+                <li>give a valid email address and keep your password private;</li>
+                <li>take responsibility for everything that happens under your account, and tell us straight away if you think someone else has accessed it;</li>
+                <li>don't use Spendly for anything illegal, or to store other people's data without their permission;</li>
+                <li>don't try to break, overload or get around the security of the service, or access anyone else's account.</li>
+            </ul>
+            <p>
+                You can stop using Spendly at any time. We may suspend or close an
+                account that breaks these terms.
+            </p>
+
+            <h2>3. User Data</h2>
+            <p>
+                The expenses you enter belong to you. We only use them to run Spendly
+                for you, and we don't sell them or use them for advertising. Our
+                <a href="{{ url_for('privacy') }}">Privacy Policy</a> explains exactly
+                what we collect and how it's handled.
+            </p>
+
+            <h2>4. Limitations of Liability</h2>
+            <ul>
+                <li>Spendly shows totals and summaries of what you enter. It is not financial, tax or investment advice, and its figures are only as accurate as the information you put in.</li>
+                <li>Spendly is provided "as is". We try to keep it running smoothly, but we can't promise it will always be available, error-free or free of data loss, so keep your own copies of records that matter to you.</li>
+                <li>As far as the law allows, we aren't responsible for any loss that comes from relying on Spendly, from it being unavailable, or from your data being lost.</li>
+            </ul>
+
+            <h2>5. Changes to Terms</h2>
+            <p>
+                We may update these terms from time to time. When we do, we'll change
+                the date at the top of this page. Continuing to use Spendly after a
+                change means you accept the updated terms.
+            </p>
+        </div>
+
+    </article>
+</section>
+
+{% endblock %}
